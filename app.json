@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Ridhoobot/fsub-4",
+  "repository": "https://github.com/Virtualunionsex/rido-fsub4",
   "logo": "https://telegra.ph/file/56ee04b09961e94f28ef5.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -55,11 +55,11 @@
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
-      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
+      "value": "<b>Hello {first}\n\nPromo vip 4 grup hanya 20K, Hub admin @cyellaku.</b>"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
-      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
+      "value": "<b>Hello {first}\n\nPromo vip 4 grup hanya 20K, Hub admin @cyellaku\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
     },
     "CHANNEL":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
