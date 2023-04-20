@@ -21,10 +21,10 @@ API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001874552530"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1908660708"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "panggilaja_m")
+OWNER = os.environ.get("OWNER", "cyellaku")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "postgres://diqkkqtw:UDFEcjCCBfPRrib2hC5igMFSGv3-juBZ@rosie.db.elephantsql.com/diqkkqtw")
@@ -56,7 +56,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\Join aja diem-diem ya, gak usah banyak tanya. </b>",
+    "<b>Hello {first}\n\nJoin aja diem-diem ya, gak usah banyak tanya. </b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
