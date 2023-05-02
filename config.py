@@ -30,8 +30,8 @@ OWNER = os.environ.get("OWNER", "saila4")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://rcmtggpa:5DoKhYHW0LBYPMiq-5tQ2DeAqKEWX-_9@salt.db.elephantsql.com/rcmtggpa")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "none")
-GROUP = os.environ.get("GROUP", "none")
+CHANNEL = os.environ.get("CHANNEL", "mutualan_fwb")
+GROUP = os.environ.get("GROUP", "linkharamkuu")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001847890448"))
