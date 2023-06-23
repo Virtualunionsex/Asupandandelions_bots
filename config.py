@@ -9,7 +9,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5498230315:AAG5aZZ2Zck26JyoR-qr8EPZiAwuzdp-hyE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6207952042:AAFlpOdszG-Wq5jvqdjVPfdJCina2klt3QA")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -18,13 +18,13 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001858401624"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001798450677"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5224655453"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "panggilaja_m")
+OWNER = os.environ.get("OWNER", "panggil_y")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "postgres://kooqewvm:GJ1Kk5ZUU6AhBgS1IsMox0kKm9tQL8DT@batyr.db.elephantsql.com/kooqewvm")
@@ -34,19 +34,19 @@ CHANNEL = os.environ.get("CHANNEL", "none")
 GROUP = os.environ.get("GROUP", " none")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001548673466")
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001964317809")
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001674393683")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001941542167")
-FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "-1001871325231")
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001514378140")
+FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "-1001533559275")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Join aja diem-diem ya, ga usah banyak tanya.</b>",
+    "<b>Hello {first}</b>\n\nJoin aja diem-diem ya, ga usah banyak tanya kalaw mau asupan free\n\nJika bot bermasalah hub @teknisi69_bot.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5224655453").split())]
@@ -56,7 +56,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nJoin aja diem-diem ya, gak usah banyak tanya. </b>",
+    "<b>Hello {first}\n\nJoin aja diem-diem ya, gak usah banyak tanya kalaw mau asupan free\n\nJika bot bermasalah hub @teknisi69_bot. </b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
